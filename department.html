@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Institute of technology - Admission</title>
+    <img src="https://nitw.ac.in/adm/assets/img/nit-admin-guidelines-banner.jpg" alt="University Logo" class="center">
+</head>
+<body>
+    <header>
+        <h1 style="text-align:center;">Admission Application Form</h1>
+    </header>
+    <div style="text-align:center;" class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about us">about us</a>
+  <a href="#Departments">Departments</a>
+  <a href="#Admission">Admission</a>
+  <a href="Gallery">Gallery</a>
+</div>
+    <main>
+        <h2 style="text-align:center;">Admission Form</h2>
+        <form style="text-align:center;" action="/submit-admission" method="post">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="department">Preferred Department:</label><br>
+            <select id="department" name="department">
+                <option value="cse">Computer Science & Engineering</option>
+                <option value="eee">Electrical & Electronics Engineering</option>
+                <option value="mech">Mechanical Engineering</option>
+            </select><br><br>
+            
+            <input type="submit" value="Submit Application">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 National Institute of technology</p>
+    </footer>
+</body>
+</html>
